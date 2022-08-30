@@ -5,13 +5,20 @@
   "main": "nodejs_blog/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect nodejs_blog/src/index.js"
-
+    "start": "nodemon --inspect nodejs_blog/src/index.js",
+    "sass": "node-sass --w nodejs_blog/src/resources/scss/ --output nodejs_blog/src/public/css/"
   },
   "keywords": [],
-  "author": "",
+  "author": "Hoadang",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1"
   }
 }
+
