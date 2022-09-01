@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --inspect nodejs_blog/src/index.js",
-    "sass": "node-sass --w nodejs_blog/src/resources/scss/ --output nodejs_blog/src/public/css/"
+    "sass": "node-sass --w nodejs_blog/src/resources/scss/ --output nodejs_blog/src/public/css/",
+    "type": "module"
   },
   "keywords": [],
   "author": "Hoadang",
